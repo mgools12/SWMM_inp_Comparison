@@ -5,7 +5,7 @@ from dataclasses import dataclass, field
 from typing import Dict, List, Tuple, Optional
 from collections import defaultdict
 
-MAP_SOURCE_CRS = "EPSG:3735"  # raw XY (feet); project in JS with proj4
+MAP_SOURCE_CRS = "EPSG:2882"  # raw XY (feet); project in JS with proj4
 
 # =========================
 # Parsing
