@@ -1,10 +1,27 @@
-# SWMM Comparison App
+# SWMM Comparison App (Enhanced Fork – Florida CRS Support)
+
+This is a **fork** of the original SWMM Comparison App by **@meyerd851-lab**, with enhancements focused on **local coordinate system support for Florida (EPSG:2882)** and improved projection handling for SWMM models that use State Plane coordinates in US survey feet.
+
+**Original Project:**
+- Repository: https://github.com/meyerd851-lab/SWMM_Comparison
+
+---
+
+## 🔄 What’s New in This Fork
+
+| Feature | Status | Notes |
+|--------|:------:|------|
+| Added **EPSG:2882** (NAD83(HARN) / Florida West US-ft) projection support | ✅ | Correct proj4 parameters + UI dropdown update |
+| Set **Florida CRS as default** | ✅ | Matching typical SWMM geometry for Tampa Bay area |
+| Projection dropdown now syncs UI and internal CRS state | ✅ | Prevents UI/map mismatch issues |
+| Code cleaned + ready for additional regional CRS expansion | ✅ | East/North/2011 variants can be added easily |
+
+---
+
+- Live App: https://mgools12.github.io/SWMM_Comparison/
+- Repository: https://github.com/mgools12/SWMM_inp_Comparison
 
 A browser-based tool for comparing EPA SWMM .inp files. It identifies and visualizes differences between two model versions directly in the browser—no installation or backend required.
-
-Live App: https://meyerd851-lab.github.io/SWMM_Comparison/
-
-Repository: https://github.com/meyerd851-lab/SWMM_Comparison
 
 **Overview**
 
