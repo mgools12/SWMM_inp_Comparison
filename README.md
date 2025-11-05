@@ -18,7 +18,7 @@ This is a **fork** of the original SWMM Comparison App by **@meyerd851-lab**, wi
 
 ---
 
-- Live App: https://mgools12.github.io/SWMM_Comparison/
+- Live App: https://mgools12.github.io/SWMM_inp_Comparison
 - Repository: https://github.com/mgools12/SWMM_inp_Comparison
 
 A browser-based tool for comparing EPA SWMM .inp files. It identifies and visualizes differences between two model versions directly in the browser—no installation or backend required.
